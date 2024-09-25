@@ -1,4 +1,3 @@
-import React from "react";
 import { ratingCount } from "../../utils/ratingCount";
 
 const Rating = ({ rating }) => {
