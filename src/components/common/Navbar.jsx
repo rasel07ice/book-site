@@ -8,11 +8,7 @@ export default function Navbar() {
       <div className="flex flex-col md:flex-row space-y-3 items-center justify-between">
         <div>
           <Link to={ROUTES.HOME}>
-            <img
-              className="size-16 p-2"
-              src="../../../public/logo.png"
-              alt="logo"
-            />
+            <img className="size-16 p-2" src="../../logo.png" alt="logo" />
           </Link>
         </div>
         <div>

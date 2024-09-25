@@ -1,15 +1,10 @@
-
 const Footer = () => {
   return (
     <div className="bg-backSecondary py-8">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 text-left gap-y-3">
         <div className="col-span-2">
           <div className="flex flex-row items-center gap-2">
-            <img
-              className="size-16 p-2 "
-              src="../../../public/logo.png"
-              alt="logo"
-            />
+            <img className="size-16 p-2 " src="../../logo.png" alt="logo" />
             <p className="text-xl font-semibold font-Ubuntu mb-3">
               Risan Book Corner
             </p>
