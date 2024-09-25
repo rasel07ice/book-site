@@ -1,10 +1,13 @@
 {
+  "homepage":"https://rasel07ice.github.io/book-corner/",
   "name": "book-corner",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d buils",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
